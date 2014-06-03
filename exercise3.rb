@@ -1,4 +1,6 @@
-puts "What is your name?"
-gets.chomp
+puts "What is your age?"
+age = gets.chomp 
 
-puts "Hi #{name}!"
+
+year_born = (2014 - age.to_i)
+puts "You were born in the year #{year_born}"
